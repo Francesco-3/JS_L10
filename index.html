@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>LA TOMBOLA EPICA</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <section class="game-container">
+      <h1>Tabellone Tombola</h1>
+
+      <div class="main-layout">
+        <div class="game-board">
+          <div class="grid"></div>
+        </div>
+
+        <div class="controls">
+          <button id="draw-button">Estrai Numero</button>
+          <div id="drawn-number">--</div>
+        </div>
+      </div>
+
+      <div id="game-over-popup" class="popup hidden">
+        <div class="popup-content">
+          <p>Il gioco è finito!</p>
+          <button id="restart-button">Rigioca</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
