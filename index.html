@@ -10,18 +10,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+    <h1>Tabellone Tombola</h1>
+
     <section class="game-container">
-      <h1>Tabellone Tombola</h1>
+      <div class="game-board">
+        <div class="grid"></div>
+      </div>
 
-      <div class="main-layout">
-        <div class="game-board">
-          <div class="grid"></div>
-        </div>
-
-        <div class="controls">
-          <button id="draw-button">Estrai Numero</button>
-          <div id="drawn-number">--</div>
-        </div>
+      <div class="controls">
+        <button id="draw-button">Estrai Numero</button>
+        <div id="drawn-number">--</div>
       </div>
 
       <div id="game-over-popup" class="popup hidden">
